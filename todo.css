@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  font-size: 1rem;
+  padding-bottom: 10px;
+}
+.container{
+  padding: 30px;
+  border: 1px solid black;
+  margin: 150px;
+  width: 75%;
+}
+.todo-input{
+  width: 300px;
+  border-radius: 2px;
+  margin-right: 10px;
+
+}
+/* .todo-input:hover{
+  
+} */
+.todo-button{
+  /* margin: 20px; */
+  border-radius: 2px;
+  background:white;
+
+}
+.box1{
+  padding-bottom: 30px;
+}
+form input, form button{
+  padding: 5px;
+  /* font-size: 2rem; */
+  border: none;
+  background: white;
+  border: 1px solid lightgray;
+}
+  form button{
+      color: black;
+      background-color: white;
+      cursor: pointer;
+  }
+  form button:hover{
+      color: white;
+      background-color: black;
+
+  }
+  .todo-list{
+      /* min-width: 30%; */
+      list-style: none;
+  }
+  .todo{
+       /* margin: 0.5rem; */
+       background:white;
+       color: black;
+       font-size: 1.5rem;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       border: 1px solid lightgray;
+       width: 600px;
+       border-radius: 5px;
+       padding: 5px;
+  }
+  .todo li{
+      flex: 1;
+
+  }
+  .edit-btn{
+      background-color: green;
+      color: white;
+      /* margin: 5px; */
+      cursor: pointer;
+      border: none;
+      padding: 5px;
+      border-radius: 2px;
+
+  }
+  .trash-btn{
+      background-color: rgb(196, 30, 30);
+      color: white;
+      margin-right: 5px;
+      cursor: pointer;
+      border: none;
+      padding: 5px;
+      border-radius: 2px;
+
+
+  }
+
